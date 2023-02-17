@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Random Card Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -14,15 +14,31 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
+      <h1 class="mt-5">Random Card Dealer (generator)</h1>
+      <img
+        class="w-75 p-3"
+        src="https://t3.ftcdn.net/jpg/03/31/90/36/360_F_331903671_LCBlU9Z8qFMPqQuzXq129lYbFxG8eFcp.jpg"
+      />
+      <p class="alert alert-success mt-4">
+        Every time you refresh the website a <b>new random card</b> will appear.
       </p>
+
+      <div
+        class="card h-100 d-inline-block shadow bg-body-tertiary rounded"
+        style="width: 120px; "
+      >
+        <div class="card-body">
+          <div class="top d-flex justify-content-start fs-3">♣</div>
+          <div class="number h-100 d-inline-block fs-1 fw-bold">
+            7
+          </div>
+          <div class="final d-flex justify-content-end fs-3">♣</div>
+        </div>
+      </div>
+
       <div class="fixed-bottom p-4">
         Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <a href="https://github.com/CacoMoore">Carolina Moore</a>
       </div>
     </div>
   </body>
